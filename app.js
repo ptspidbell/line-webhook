@@ -4,7 +4,7 @@ const app = express();
 
 const config = {
   channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
-  channelSecret: 'b981a81418527397aa894f7fbcb37c24'
+  channelSecret: 'brHRPebrS5dhdaMZrXw4if9RdSlE1DJwAaUoJThdiZpdwE2xL7jDe9SlJnDWZHFIu/HQCq3et2vsnFiydgQbnR3Q7MbA4Gz2phonlflhbKsDX1jZrHvpZaF6Tae2TmCGs+ZXCMzQ2Vuo+5fPFUhA6AdB04t89/1O/w1cDnyilFU='
 };
 
 app.post('/webhook', line.middleware(config), (req, res) => {
